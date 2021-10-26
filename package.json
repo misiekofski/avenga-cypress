@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "cy:ui": "cypress run --env TAGS=\"@UI\"",
+    "cy:api": "cypress run --env TAGS=\"@API\""
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,11 @@
   "homepage": "https://github.com/misiekofski/avenga-cypress#readme",
   "devDependencies": {
     "cypress": "^8.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
     "eslint": "^8.1.0",
     "eslint-plugin-cypress": "^2.12.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
   }
 }
