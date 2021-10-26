@@ -1,0 +1,25 @@
+{
+  "name": "avenga-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misiekofski/avenga-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/misiekofski/avenga-cypress/issues"
+  },
+  "homepage": "https://github.com/misiekofski/avenga-cypress#readme",
+  "devDependencies": {
+    "cypress": "^8.7.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  }
+}
